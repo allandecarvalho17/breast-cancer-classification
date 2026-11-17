@@ -1,0 +1,28 @@
+{
+    "Decision Tree": {
+        "acuracia_media_validacao_cruzada": 0.759,
+        "melhores_parametros": {
+            "classificador__class_weight": null,
+            "classificador__criterion": "entropy",
+            "classificador__max_depth": 5,
+            "classificador__min_samples_split": 2
+        }
+    },
+    "Random Forest": {
+        "acuracia_media_validacao_cruzada": 0.7543,
+        "melhores_parametros": {
+            "classificador__class_weight": null,
+            "classificador__criterion": "gini",
+            "classificador__max_depth": null,
+            "classificador__min_samples_split": 2,
+            "classificador__n_estimators": 200
+        }
+    },
+    "melhor_modelo": "Decision Tree",
+    "acuracia_teste": 0.7241,
+    "quantidade_registros": 286,
+    "distribuicao_classes": {
+        "no-recurrence-events": 201,
+        "recurrence-events": 85
+    }
+}
